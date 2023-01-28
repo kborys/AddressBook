@@ -30,3 +30,7 @@ app.UseMiddleware<ErrorHandlerMiddleware>();
 app.MapControllers();
 
 app.Run();
+
+public partial class Program {
+
+}

@@ -16,6 +16,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{6C4DDC77-8D9A-4B1E-AFD4-A681B56EB8FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressBook.Api.IntegrationTests", "AddressBook.Api.IntegrationTests\AddressBook.Api.IntegrationTests.csproj", "{9563BE36-9DAB-4107-8A30-C790D84113DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,9 +42,16 @@ Global
 		{737FAEE0-D8F5-4919-B5C1-B2109AA5F826}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{737FAEE0-D8F5-4919-B5C1-B2109AA5F826}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{737FAEE0-D8F5-4919-B5C1-B2109AA5F826}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9563BE36-9DAB-4107-8A30-C790D84113DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9563BE36-9DAB-4107-8A30-C790D84113DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9563BE36-9DAB-4107-8A30-C790D84113DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9563BE36-9DAB-4107-8A30-C790D84113DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9563BE36-9DAB-4107-8A30-C790D84113DD} = {6C4DDC77-8D9A-4B1E-AFD4-A681B56EB8FB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {85C22815-0DC3-42AF-AA95-47B00C15360E}
